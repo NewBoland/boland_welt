@@ -1,0 +1,13 @@
+﻿l_english:
+ BLD_fascism:0 "Boland Reich"
+ BLD_fascism_DEF:0 "the Boland Reich"
+ BLD_democratic:0 "Bolandian Republic"
+ BLD_democratic_DEF:0 "the Bolandian Republic"
+ BLD_neutrality:1 "Kingdom of Bolandia"
+ BLD_neutrality_DEF:1 "the Kingdom of Bolandia"
+ BLD_communism:0 "Soviet State of Bolandia"
+ BLD_communism_DEF:0 "the Soviet State of Bolandia"
+ BLD_fascism_ADJ:0 "Bolandian"
+ BLD_democratic_ADJ:0 "Bolandian"
+ BLD_neutrality_ADJ:0 "Bolandian"
+ BLD_communism_ADJ:0 "Bolandian"

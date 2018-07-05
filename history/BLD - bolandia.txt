@@ -1,0 +1,175 @@
+﻿capital = 5 
+
+oob = "BLD_1936"
+
+set_research_slots = 3
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_mountaineers = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_recon = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	gwtank = 1
+	early_fighter = 1
+	early_bomber = 1
+	CAS1 = 1
+	early_destroyer = 1
+	early_submarine = 1	
+	trench_warfare = 1
+}
+
+
+set_convoys = 50
+
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 25
+		}
+
+		fascism = {
+			popularity = 25
+		}
+		
+		communism = {
+			popularity = 25
+		}
+		
+		neutrality = { 
+			popularity = 25
+		}
+	}
+	
+	ruling_party = neutrality
+	last_election = "1935.9.8"
+	election_frequency = 36
+	elections_allowed = yes
+}
+
+
+create_country_leader = {
+	name = "Neutral Boland"
+	desc = "POLITICS_NEUTRAL_BOLAND_DESC"
+	picture = "Portrait_Poland_Ignacy_Moscicki.dds"
+	expire = "1965.1.1"
+	ideology = oligarchism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "COMRADE BOLAND"
+	desc = "POLITICS_COMRADE_BOLAND_DESC"
+	picture = "Portrait_Poland_Wladyslaw_Gomulka.dds"
+	expire = "1965.1.1"
+	ideology = leninism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Freedom Boland"
+	desc = "POLITICS_FREEDOM_BOLAND_DESC"
+	picture = "GFX_POL_wincenty_witos"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Fuhrer Boland"
+	desc = "POLITICS_FREEDOM_BOLAND_DESC"
+	picture = "GFX_POL_boleslaw_piasecki"
+	expire = "1965.1.1"
+	ideology = falangism
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = {
+	name = "Musket Marine"
+	picture = "Portrait_Poland_Wladyslaw_Sikorski.dds"
+	traits = { offensive_doctrine }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_field_marshal = {
+	name = "Cat Emperor"
+	gfx = "GFX_POL_wladyslaw_bortnowski"
+	traits = {  thorough_planner }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_field_marshal = {
+	name = "Nikita"
+	gfx = "GFX_POL_wladyslaw_bortnowski"
+	traits = {  politically_connected }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Tarrier"
+	gfx = "GFX_POL_wladislaw_anders"
+	traits = {  armor_officer }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Vexz"
+	gfx = "GFX_POL_roman_abraham"
+	traits = {  }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Synthetic fox"
+	gfx = "GFX_POL_wincenty_kowalski"
+	traits = { trickster }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_equipment_variant = {
+	name = "BOLAND PEW PEW"
+	type = fighter_equipment_0
+	upgrades = {
+		plane_gun_upgrade = 3
+		plane_range_upgrade = 0  
+		plane_engine_upgrade = 1
+		plane_reliability_upgrade = 3
+	}
+}
